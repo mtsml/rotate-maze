@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>回転迷路</title>
+</head>
+<body onload="init()">
+    <p>回転迷路</p>
+    <input type="button" value="ゲームスタート" onclick="startGame()">
+    ［←］：時計回り　［→］：反時計回り
+    <hr>
+    <div id="time">TIME：0.0</div>
+    <canvas id="map" width="2000" height="1000"></canvas>
+    <canvas id="play" width="500" height="500"></canvas>
+</body>
+</html>
